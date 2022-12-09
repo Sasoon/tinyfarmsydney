@@ -26,7 +26,7 @@
     "2b17cabb-c74f-409d-bcab-8e6088b7a7d9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% assign metafield = collections.all.metafields %}\n{{ metafield }}\n{% endfor %}",
+        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% assign metafield = collections.all.metafields.global.cuslink %}\n{{ metafield }}\n{% endfor %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
@@ -153,10 +153,11 @@
         "column-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/berries.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Farm Experience",
+            "link": "shopify:\/\/products\/farm-experience"
           }
         },
         "column-1": {
