@@ -26,7 +26,7 @@
     "2b17cabb-c74f-409d-bcab-8e6088b7a7d9": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% endfor %}",
+        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% assign metafield = collections.all.metafields %}\n{{ metafield }}\n{% endfor %}",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
