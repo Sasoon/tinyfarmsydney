@@ -66,7 +66,11 @@
 }
 
 .multicolumn.background-primary .multicolumn-card {
-  background: rgb(var(--color-background)) linear-gradient(rgba(var(--color-foreground), 0.04), rgba(var(--color-foreground), 0.04));
+  background: rgb(var(--color-background))
+    linear-gradient(
+      rgba(var(--color-foreground), 0.04),
+      rgba(var(--color-foreground), 0.04)
+    );
 }
 
 .multicolumn-list h3 {
@@ -96,6 +100,11 @@
 .multicolumn-list__item.center .media--adapt img {
   left: 50%;
   transform: translateX(-50%);
+  transition: 0.5s ease-in-out all;
+}
+
+.multicolumn-list__item.center .media--adapt img:hover {
+  transform: scale(1.1) !important;
 }
 
 @media screen and (max-width: 749px) {
@@ -109,7 +118,6 @@
     padding-right: 1.5rem;
   }
 }
-
 
 @media screen and (min-width: 750px) {
   .multicolumn-list.slider,
@@ -200,9 +208,14 @@
   box-sizing: border-box;
 }
 
-.multicolumn-card > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
-  border-top-left-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
-  border-top-right-radius: calc(var(--text-boxes-radius) - var(--text-boxes-border-width));
+.multicolumn-card
+  > .multicolumn-card__image-wrapper--full-width:not(.multicolumn-card-spacing) {
+  border-top-left-radius: calc(
+    var(--text-boxes-radius) - var(--text-boxes-border-width)
+  );
+  border-top-right-radius: calc(
+    var(--text-boxes-radius) - var(--text-boxes-border-width)
+  );
   overflow: hidden;
 }
 
