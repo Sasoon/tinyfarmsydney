@@ -163,9 +163,10 @@
         "column-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/PXL_20221204_023012735.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Beekeeping workshop",
             "link": ""
           }
         },
@@ -319,6 +320,49 @@
         "padding_bottom": 88
       }
     },
+    "c8933d8a-8779-4192-ab57-abfe336c4d63": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-0",
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-1",
+        "template--16845206880536__c8933d8a-8779-4192-ab57-abfe336c4d63-1670587262ec7a7552-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "newsletter": {
       "type": "newsletter",
       "blocks": {
@@ -365,6 +409,7 @@
     "collage",
     "multicolumn-1",
     "featured-blog",
+    "c8933d8a-8779-4192-ab57-abfe336c4d63",
     "newsletter"
   ]
 }
