@@ -23,19 +23,28 @@
         "padding_bottom": 40
       }
     },
+    "2b17cabb-c74f-409d-bcab-8e6088b7a7d9": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% endfor %}",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "collection-list": {
       "type": "collection-list",
       "blocks": {
         "collection-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "produce"
+            "collection": "frontpage"
           }
         },
         "collection-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "farm-experience"
+            "collection": "frontpage"
           }
         },
         "collection-2": {
@@ -346,6 +355,7 @@
   },
   "order": [
     "rich_text",
+    "2b17cabb-c74f-409d-bcab-8e6088b7a7d9",
     "collection-list",
     "collage-0",
     "video",
