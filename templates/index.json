@@ -23,130 +23,6 @@
         "padding_bottom": 40
       }
     },
-    "2b17cabb-c74f-409d-bcab-8e6088b7a7d9": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "{% for product in collections.all.products %}\n    {% if product.handle == 'farm-experience' %}\n        {{ product.title }}\n    {% endif %}\n{% assign metafield = collections.all.metafields.global.cuslink %}\n{{ metafield }}\n{% endfor %}",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "farmxp"
-          }
-        },
-        "collection-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "collection-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "courses"
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1",
-        "collection-2"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 24,
-        "padding_bottom": 36
-      }
-    },
-    "collage-0": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "collection-1": {
-          "type": "image",
-          "settings": {
-            "image": "{{ shop.brand.cover_image }}",
-            "image_padding": false
-          }
-        }
-      },
-      "block_order": [
-        "collection-0",
-        "collection-1"
-      ],
-      "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "desktop_layout": "right",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 0
-      }
-    },
-    "video": {
-      "type": "video",
-      "settings": {
-        "heading": "Video",
-        "heading_size": "h2",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 28,
-        "padding_bottom": 40
-      }
-    },
-    "rich-text-1": {
-      "type": "rich-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 44
-      }
-    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -173,9 +49,10 @@
         "column-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
+            "image": "shopify:\/\/shop_images\/hand-holding-a-mushroom.jpg",
+            "title": "",
+            "text": "",
+            "link_label": "Mushroom Growing Workshop",
             "link": ""
           }
         }
@@ -400,11 +277,6 @@
   },
   "order": [
     "rich_text",
-    "2b17cabb-c74f-409d-bcab-8e6088b7a7d9",
-    "collection-list",
-    "collage-0",
-    "video",
-    "rich-text-1",
     "multicolumn",
     "collage",
     "multicolumn-1",
