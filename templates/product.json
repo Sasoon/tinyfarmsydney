@@ -98,7 +98,7 @@
         "enable_sticky_info": true,
         "media_position": "left",
         "gallery_layout": "stacked",
-        "media_size": "medium",
+        "media_size": "small",
         "mobile_thumbnails": "columns",
         "hide_variants": false,
         "enable_video_looping": false,
