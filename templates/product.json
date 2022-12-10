@@ -99,7 +99,7 @@
         "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "small",
-        "mobile_thumbnails": "columns",
+        "mobile_thumbnails": "hide",
         "hide_variants": false,
         "enable_video_looping": false,
         "padding_top": 100,
