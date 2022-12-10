@@ -85,14 +85,14 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Subscribe to our emails",
+            "heading": "Subscribe for farm updates!",
             "heading_size": "h1"
           }
         },
         "paragraph": {
           "type": "paragraph",
           "settings": {
-            "text": "<p>Subscribe to our mailing list for insider news, product launches, and more.<\/p>"
+            "text": "<p>Emails will include details of new workshops, discount codes and general updates on our tiny farm :)<\/p>"
           }
         },
         "email_form": {
