@@ -5,6 +5,7 @@
       "blocks": {
         "text": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "body"
@@ -28,6 +29,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
@@ -50,6 +52,7 @@
         },
         "collapsible-tab-0": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Materials",
             "icon": "clipboard",
@@ -59,6 +62,7 @@
         },
         "collapsible-tab-1": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Dimensions",
             "icon": "ruler",
@@ -68,6 +72,7 @@
         },
         "collapsible-tab-2": {
           "type": "collapsible_tab",
+          "disabled": true,
           "settings": {
             "heading": "Care information",
             "icon": "heart",
@@ -99,49 +104,6 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 44
-      }
-    },
-    "image-with-text": {
-      "type": "image-with-text",
-      "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Image with text",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "button": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text",
-        "button"
-      ],
-      "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "inverse",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 48
       }
     },
     "main-product-recommendations": {
@@ -198,7 +160,6 @@
   },
   "order": [
     "main",
-    "image-with-text",
     "main-product-recommendations",
     "newsletter"
   ]
