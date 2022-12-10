@@ -101,7 +101,6 @@
   left: 50%;
   transform: translateX(-50%);
   transition: 0.5s ease-in-out all;
-  overflow: hidden;
 }
 
 .multicolumn-list__item.center .media--adapt img:hover {
