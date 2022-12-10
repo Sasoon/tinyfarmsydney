@@ -197,6 +197,12 @@
                         {%- endif -%}
                       </li>
                     {%- endfor -%}
+                      <li>
+                      <a href="{{ settings.social_instagram_link }}" class="list-social__link link">
+                        {%- render 'icon-instagram' -%}
+                        <span class="visually-hidden">{{ 'general.social.links.instagram' | t }}</span>
+                      </a>
+                    </li>
                   </ul>
                 </nav>
                 <div class="menu-drawer__utility-links">
