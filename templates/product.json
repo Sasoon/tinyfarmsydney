@@ -99,10 +99,10 @@
         "media_position": "left",
         "gallery_layout": "stacked",
         "media_size": "medium",
-        "mobile_thumbnails": "hide",
+        "mobile_thumbnails": "show",
         "hide_variants": false,
         "enable_video_looping": false,
-        "padding_top": 36,
+        "padding_top": 100,
         "padding_bottom": 44
       }
     },
