@@ -108,7 +108,7 @@
     "social_twitter_link": "",
     "social_facebook_link": "",
     "social_pinterest_link": "",
-    "social_instagram_link": "tinyfarmsydney",
+    "social_instagram_link": "",
     "social_tiktok_link": "",
     "social_tumblr_link": "",
     "social_snapchat_link": "",
@@ -124,20 +124,6 @@
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
-        "blocks": {
-          "announcement-bar-0": {
-            "type": "announcement",
-            "settings": {
-              "text": "Organic produce at tiny prices",
-              "text_alignment": "center",
-              "color_scheme": "background-2",
-              "link": ""
-            }
-          }
-        },
-        "block_order": [
-          "announcement-bar-0"
-        ],
         "settings": {
         }
       },
@@ -150,7 +136,7 @@
           "logo_position": "top-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
-          "show_line_separator": false,
+          "show_line_separator": true,
           "enable_sticky_header": false,
           "mobile_logo_position": "center",
           "margin_bottom": 0,
