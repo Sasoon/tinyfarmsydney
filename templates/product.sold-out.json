@@ -35,8 +35,16 @@
         },
         "buy_buttons": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
+          }
+        },
+        "2006c10a-b51c-4a14-ba67-fab8377794ca": {
+          "type": "text",
+          "settings": {
+            "text": "Booked out",
+            "text_style": "subtitle"
           }
         },
         "description": {
@@ -88,6 +96,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "2006c10a-b51c-4a14-ba67-fab8377794ca",
         "description",
         "share",
         "collapsible-tab-0",
